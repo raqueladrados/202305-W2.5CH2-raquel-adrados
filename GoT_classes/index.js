@@ -28,3 +28,8 @@ const myFighter = new Fighter(
   "sword",
   8
 );
+
+const character = new Character(myKing, myCounselor, mySquire, myFighter);
+debugger;
+//new Character = [myKing, myCounselor, mySquire, myFighter];
+console.log(character());

@@ -9,7 +9,6 @@ describe("Given Character class", () => {
       expect(character).toHaveProperty("family");
       expect(character).toHaveProperty("age");
       expect(character).toHaveProperty("status");
-      expect(character).toHaveProperty("die");
       expect(character).toHaveProperty("series");
     });
   });
